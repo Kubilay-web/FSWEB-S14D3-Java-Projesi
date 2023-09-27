@@ -34,8 +34,8 @@ public class CarSkeleton {
         return ("CarSkeleton is driving");
     }
 
-    public String runEngine(){
-        return ("CarSkeleton is runEngine");
+    protected void runEngine() {
+        System.out.println("Motor is running.");
     }
 
 }
